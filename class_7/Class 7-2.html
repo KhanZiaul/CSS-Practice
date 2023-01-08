@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 7.2</title>
+    <style>
+        .a{
+height:600px;
+width:600px;
+background: rgb(195, 226, 19);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows:1fr 1fr 1fr ;
+grid-row-gap: 1px;
+grid-column-gap:1px ;
+        }
+        .b{
+background: #000;
+border:2px solid rgb(17, 201, 233);
+        }
+        .c{
+            grid-column-start: 1;
+            grid-column-end: 4;
+            /* grid-column: 1/sapn 3; */
+        }
+      </style>  
+</head>
+<body>
+    <div class="a">
+        <div class="b c"></div>
+        <div class="b"></div>
+        <div class="b"></div>
+        <div class="b"></div>
+        <div class="b"></div>
+    </div>
+</body>
+</html>

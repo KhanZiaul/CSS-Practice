@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-Sizing</title>
+    <style>
+        *{
+            bottom: 0;
+            margin: 0;
+        }
+   .c1{
+     width:700px;
+     height:300px;
+     background-color:aqua;
+     padding:30px;
+     border:1px solid black;
+     /* box-sizing:border-box; */
+   }
+   .c2{
+     width:600px;
+     height:200px;
+     background-color:aqua;
+     padding:40px;
+     border:30px solid black;
+     box-sizing:border-box;
+   }
+    </style>
+</head>
+<body>
+    <div class="c1">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus esse eaque totam ipsum quas vel saepe? Excepturi animi aut accusamus quisquam ducimus, numquam dignissimos labore quibusdam vero corrupti consequuntur eligendi tempore modi eveniet facilis qui eaque ipsam quas quam necessitatibus!
+        <div class="c2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti voluptatibus itaque ex, illo omnis natus dicta quidem veritatis mollitia quam saepe consectetur aspernatur minus praesentium non molestiae nobis molestias perferendis.
+        </div>
+    </div>
+
+</body>
+</html>

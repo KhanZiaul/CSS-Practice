@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.c1{
+background-color:rgb(7, 168, 48) ;
+color:black;
+height:100px;
+}
+.c2{
+background-color:rgb(14, 26, 90) ;
+color:white;
+}

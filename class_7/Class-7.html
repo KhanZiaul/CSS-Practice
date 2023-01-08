@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-7</title>
+    <style>
+.cc{
+    height:600px;
+    width:1000px;
+    background: aqua;
+    display: grid;
+    /* grid-template-rows: 150px 150px 150px;
+    grid-template-columns:150px 150px 150px; */
+    /* grid-template-columns: repeat(3,1fr);
+    grid-template-areas:repeat(3,1fr); */
+    grid-template-rows:50px 1fr 50px;
+    grid-template-columns:1fr 1fr 1fr ;
+    row-gap: 3px;
+    column-gap: 3px;
+}
+.c{
+    /* height:100px;
+    width:100px; */
+    background: rgb(46, 6, 190);
+}
+
+.a{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: rgb(148, 223, 10);
+}
+.foo{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background: rgb(148, 223, 10); 
+}
+    </style>
+</head>
+<body>
+<div class="cc">
+    <div class="c a"> THIS IS HOME</div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c"></div>
+    <div class="c foo"><b>&copy;Copywrite-Issue</b></div>
+</div>
+</body>
+</html>

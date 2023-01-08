@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+.c{
+border:2px solid black;
+height:300px;
+width:300px;
+background: rgb(14, 188, 211);
+animation-name:ok;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+animation-delay: 2s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+
+}
+@keyframes ok{
+    0%{
+        border-radius:0%;
+    }
+    25%{
+        background: rgb(177, 17, 226);
+    }
+    75%{
+        background: rgb(132, 202, 3);
+    }
+    100%{
+        border-radius: 50%;
+        background: rgb(14, 206, 24);
+    }
+}
+p{
+    font-size: 30px;
+    text-align: center;
+    padding:60px;
+}
+    </style>
+</head>
+<body>
+    <div class="c"><p>This Is animation Test</p></div>
+</body>
+</html>

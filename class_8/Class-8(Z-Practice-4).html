@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-8(Practice-4)</title>
+    <style>
+.a{
+background: #000;
+height:100px;      
+}
+.c{
+    background: rgb(228, 236, 236);
+    height:400px;
+    display: flex;
+    overflow: hidden;
+}
+.h{
+    transform:translate(100px)
+}
+.j{
+    transform:translate(150px)
+}
+.k{
+    transform:translate(200px) 
+}
+.l{
+    background: rgb(5, 184, 20);
+    height:200px;   
+}
+.d{
+animation:f1 3s ease-in-out infinite;
+}
+@keyframes  f1{
+    0%{
+    transform: translatex(100px);
+    }
+    100%{
+        transform: translatex(1390px);
+    }
+
+}
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="c">
+        <img class="d h" src="a.jpg" width=1000px; height=400px;/>
+        <img class="d j" src="b.jpg" width=1000px; height=400px;/>
+        <img class="d k" src="c.jpg" width=1000px; height=400px;/>
+    </div>
+    <div class="l"></div>
+</body>
+</html>
